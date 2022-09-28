@@ -31,7 +31,7 @@ import org.springframework.web.bind.annotation.RestController;
 import lombok.Generated;
 
 @RequestMapping(value = "/api/v1.0/tweets")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://tweetapp-frontendapp.azurewebsites.net")
 @RestController
 @Generated
 public class TweetController {
